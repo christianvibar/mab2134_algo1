@@ -37,3 +37,6 @@ Missing data: low to medium. Will use gold layer data from company dataset. Will
 Leakage: to be audited in EDA; features must be observable at acquisition time only.
 Ethics: low. Internal B2B data, PII scrubbed, outputs used for budget decisions not individual client actions.
 Feasibility: clustering might not find new segments. Regression model might not predict well if key drivers of customer value are not captured in the available features.
+
+### Important Files
+[Data Dictionary](

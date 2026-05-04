@@ -39,4 +39,4 @@ Ethics: low. Internal B2B data, PII scrubbed, outputs used for budget decisions 
 Feasibility: clustering might not find new segments. Regression model might not predict well if key drivers of customer value are not captured in the available features.
 
 ### Important Files
-[Data Dictionary](
+[Data Dictionary](https://github.com/christianvibar/mab2134_algo1/blob/75681427885c9a45c28ab401efaec1bff4c9b289/data_dictionary.md)

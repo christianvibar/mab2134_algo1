@@ -82,4 +82,4 @@
 
 | Column | Type | Definition |
 |---|---|---|
-| `revenue_first_12_months` | FLOAT | Total gross revenue in the first 12 months of the client's lifetime. Pre-computed — no aggregation needed. Take rate (51%) applied post-model at the decision layer. |
+| `revenue_first_12_months` | FLOAT | Total gross revenue in the first 12 months of the client's lifetime. Pre-computed — no aggregation needed. |

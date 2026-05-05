@@ -19,6 +19,7 @@
 | `keyword_match_type` | STRING | Keyword match type at acquisition. Values: `EXACT`, `PHRASE`, `BROAD` |
 | `placement` | STRING | Ad placement at acquisition (e.g. `facebook_ads_on_reels`) |
 | `facebook_ad_set_audience` | STRING | Facebook ad set audience at acquisition |
+| `lifecycle` | NUMERIC | The client's lifecycle count. Resets when a client churns or fails to convert within a 30-day window. |
 
 ## Time Fields (DATE/TIMESTAMP)
 
@@ -45,6 +46,7 @@
 | `profit` | NUMERIC | Total lifetime profit (revenue minus costs) |
 | `wrr` | NUMERIC | Weekly recurring revenue. Converts to MRR via `wrr * 4.33` |
 | `mrr` | NUMERIC | Monthly recurring revenue. Often calculated as `wrr * 4.33`. Sum of MRR across all deals sharing the same latest charge day |
+
 
 ## Demographic Fields (STRING)
 

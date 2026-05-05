@@ -3,7 +3,8 @@
 ## Client Identifier
 | Column | Type | Description |
 |---|---|---|
-| `unified_client_id` | STRING | Deduplicated client identifier that groups merged contacts into a single logical client. |
+| `client_id` | STRING | Deduplicated client identifier that groups contacts with multiple lifecycle stages into a single logical client. |
+| `hubspot_client_id` | STRING | Client ID of contact in Hubspot CRM. Used as key to join with other tables. |
 
 ## Marketing Fields
 

@@ -5,7 +5,7 @@
 |---|---|---|
 | `unified_client_id` | STRING | Deduplicated client identifier that groups merged contacts into a single logical client. |
 
-## Marketing Fields (STRING)
+## Marketing Fields
 
 | Column | Type | Description |
 |---|---|---|
@@ -26,7 +26,7 @@
 | `facebook_ad_set_audience` | STRING | Facebook ad set audience at acquisition |
 | `lifecycle` | NUMERIC | The client's lifecycle count. Resets when a client churns or fails to convert within a 30-day window. |
 
-## Time Fields (DATE/TIMESTAMP)
+## Time Fields
 
 | Column | Type | Description |
 |---|---|---|
@@ -36,7 +36,7 @@
 | `first_billing_week` | DATE | First billing week when client metrics are recorded |
 | `last_billing_week` | DATE | Most recent week the client was billed |
 
-## Revenue Fields (INTEGER/NUMERIC)
+## Revenue Fields
 
 | Column | Type | Description |
 |---|---|---|
@@ -53,7 +53,7 @@
 | `mrr` | NUMERIC | Monthly recurring revenue. Often calculated as `wrr * 4.33`. Sum of MRR across all deals sharing the same latest charge day |
 
 
-## Demographic Fields (STRING)
+## Demographic Fields
 
 | Column | Type | Description |
 |---|---|---|
@@ -66,7 +66,7 @@
 | `cb_jobtitle` | STRING | Client's job title from Clearbit |
 | `cb_jobtitle_type` | STRING | Job title seniority classification. Values: `senior leadership` (C-suite, VP, Director), `non-senior leadership` |
 
-## Firmographic Fields (STRING)
+## Firmographic Fields
 
 | Column | Type | Description |
 |---|---|---|

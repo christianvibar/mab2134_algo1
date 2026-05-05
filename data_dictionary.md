@@ -25,14 +25,16 @@
 | `keyword_match_type` | STRING | Keyword match type at acquisition. Values: `EXACT`, `PHRASE`, `BROAD` |
 | `placement` | STRING | Ad placement at acquisition (e.g. `facebook_ads_on_reels`) |
 | `facebook_ad_set_audience` | STRING | Facebook ad set audience at acquisition |
-| `lifecycle` | NUMERIC | The client's lifecycle count. Resets when a client churns or fails to convert within a 30-day window. |
+| `lifecycle` | NUMERIC | The client's lifecycle count. Resets when a client churns or fails to convert within a 30-day window |
 
 ## Time Fields
 
 | Column | Type | Description |
 |---|---|---|
 | `attributed_at` | TIMESTAMP | Timestamp of the paid attribution touch point. Distinct from `signup_at` — use carefully as a cohort anchor |
-| `signup_date` | DATE | Date when the client signed up. Key field for cohort analysis and lifecycle window boundaries |
+| `attributed_date` | DATE | Derived date of the `attributed_at` TIMESTAMP field |
+| `signup_at` | TIMESTAMP | Date and time when the client signed up |
+| `signup_date` | DATE | Derived date of the `signup_at` TIMESTAMP field |
 | `customer_date` | DATE | Date when the client became a customer (reached customer lifecycle stage) |
 | `first_billing_week` | DATE | First billing week when client metrics are recorded |
 | `last_billing_week` | DATE | Most recent week the client was billed |

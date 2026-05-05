@@ -10,20 +10,20 @@
 
 | Column | Type | Description |
 |---|---|---|
-| `broader_source` | STRING | High-level acquisition source grouping. Values: `paid_inbound`, `organic_inbound`, `outbound`, `referral` |
-| `broad_source` | STRING | Granular acquisition source. Values: `adwords`, `facebook`, `organic_seo`, `direct`, `partner_referral` |
-| `channel` | STRING | Marketing channel at acquisition. Values: `adwords`, `facebook`, `bing`, `linkedin`, `reddit`, `organic`, `direct` |
-| `service_offering` | STRING | Service the client was interested in based on the ad/page they saw. Values: `executive_assistant`, `virtual_assistant`, `bookkeeper` |
+| `broader_source` | STRING | High-level acquisition source grouping |
+| `broad_source` | STRING | Granular acquisition source |
+| `channel` | STRING | Marketing channel at acquisition |
+| `service_offering` | STRING | Service the client was interested in based on the ad/page they saw |
 | `campaign_group` | STRING | Campaign group classification at acquisition |
 | `campaign` | STRING | Campaign name at acquisition |
 | `ad_group` | STRING | Ad group name at acquisition |
 | `ad` | STRING | Ad name at acquisition |
-| `ad_network` | STRING | Ad network at acquisition. Values: `FB`, `Google Ads`, `LinkedIn`, `Bing` |
+| `ad_network` | STRING | Ad network at acquisition |
 | `creative_group` | STRING | Creative group classification at acquisition |
 | `creative_variation` | STRING | Creative variation at acquisition |
 | `keyword_text` | STRING | Keyword text from the acquisition search ad |
-| `keyword_match_type` | STRING | Keyword match type at acquisition. Values: `EXACT`, `PHRASE`, `BROAD` |
-| `placement` | STRING | Ad placement at acquisition (e.g. `facebook_ads_on_reels`) |
+| `keyword_match_type` | STRING | Keyword match type at acquisition |
+| `placement` | STRING | Ad placement at acquisition |
 | `facebook_ad_set_audience` | STRING | Facebook ad set audience at acquisition |
 | `lifecycle` | NUMERIC | The client's lifecycle count. Resets when a client churns or fails to convert within a 30-day window |
 

@@ -62,7 +62,6 @@
 | `cb_city` | STRING | Company city from Clearbit |
 | `email_type` | STRING | Email classification. Values: `personal`, `business` |
 | `email_industry_type` | STRING | Industry type derived from email domain. Values: `seed_brokerage_firms`, `other_brokerage_firms`, `education_services`, `other_education_services`, `NULL` |
-| `cb_jobtitle` | STRING | Client's job title from Clearbit |
 | `cb_jobtitle_type` | STRING | Job title seniority classification. Values: `senior leadership` (C-suite, VP, Director), `non-senior leadership` |
 
 ## Firmographic Fields

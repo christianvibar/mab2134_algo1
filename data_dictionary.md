@@ -29,7 +29,8 @@
 | `signup_date` | DATE | Date when the client signed up. Key field for cohort analysis and lifecycle window boundaries |
 | `customer_date` | DATE | Date when the client became a customer (reached customer lifecycle stage) |
 | `week` | DATE | Finance week ending date (Friday–Thursday week structure) |
-| `first_week` | DATE | First billing week when client metrics are recorded |
+| `first_billing_week` | DATE | First billing week when client metrics are recorded |
+| `last_billing_week` | DATE | Most recent week the client was billed |
 
 ## Revenue Fields (INTEGER/NUMERIC)
 

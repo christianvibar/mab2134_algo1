@@ -50,8 +50,6 @@
 | `starting_mrr` | NUMERIC | MRR from the client's first billing week (excludes zero values) |
 | `latest_mrr` | NUMERIC | MRR from the client's most recent billing week |
 | `profit` | NUMERIC | Total lifetime profit (revenue minus costs) |
-| `wrr` | NUMERIC | Weekly recurring revenue. Converts to MRR via `wrr * 4.33` |
-| `mrr` | NUMERIC | Monthly recurring revenue. Often calculated as `wrr * 4.33`. Sum of MRR across all deals sharing the same latest charge day |
 
 
 ## Demographic Fields

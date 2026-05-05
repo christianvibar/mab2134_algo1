@@ -48,7 +48,6 @@
 | `revenue_first_2_months` | NUMERIC | Total revenue in the client's first 2 months |
 | `revenue_first_3_months` | NUMERIC | Total revenue in the client's first 3 months |
 | `revenue_first_6_months` | NUMERIC | Total revenue in the client's first 6 months |
-| `revenue_first_12_months` | NUMERIC | Total revenue in the client's first 12 months |
 | `starting_mrr` | NUMERIC | MRR from the client's first billing week (excludes zero values) |
 | `latest_mrr` | NUMERIC | MRR from the client's most recent billing week |
 | `profit` | NUMERIC | Total lifetime profit (revenue minus costs) |

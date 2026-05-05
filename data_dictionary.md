@@ -1,5 +1,9 @@
 # Data Dictionary
 
+## Client Identifier
+|---|---|---|
+| `unified_client_id` | STRING | Deduplicated client identifier that groups merged contacts into a single logical client. |
+
 ## Marketing Fields (STRING)
 
 | Column | Type | Description |

@@ -16,6 +16,7 @@ One customer (one row = one customer record).
 
 ### Target / Structure
 **Phase 1:** Unsupervised. Discover natural customer segments from behavioral data; validate whether manual customer segment labels correspond to meaningfully distinct groups.
+
 **Phase 2:** Supervised. Predict 12-month gross revenue per customer in absolute dollars (observed; take rate applied post-model at the decision layer).
 
 ### Prediction Horizon

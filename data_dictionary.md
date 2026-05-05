@@ -52,6 +52,7 @@
 | `starting_mrr` | NUMERIC | MRR from the client's first billing week (excludes zero values) |
 | `latest_mrr` | NUMERIC | MRR from the client's most recent billing week |
 | `profit` | NUMERIC | Total lifetime profit (revenue minus costs) |
+| `active_weeks` | NUMERIC | Total number of weeks the client had active billing. Week count starts at 0, so a client with a complete 12-month window has active_weeks >= 51. |
 
 
 ## Demographic Fields

@@ -42,4 +42,4 @@ Feasibility: clustering might not find new segments. Regression model might not 
 ### Important Files
 - [Data Dictionary](https://github.com/christianvibar/mab2134_algo1/blob/75681427885c9a45c28ab401efaec1bff4c9b289/data_dictionary.md)
 - [Notebooks](https://github.com/christianvibar/mab2134_algo1/tree/75681427885c9a45c28ab401efaec1bff4c9b289/notebooks)
-- Dataset is not in this dictionary. Please email christianalan.vibar@uap.asia for access.
+- [Data](https://github.com/christianvibar/mab2134_algo1/tree/a4532ee010e846f46f3d163d3cf461d77241112d/data)

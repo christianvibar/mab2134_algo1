@@ -83,4 +83,4 @@
 
 | Column | Type | Definition |
 |---|---|---|
-| `revenue_first_12_months` | FLOAT | Total gross revenue in the first 12 months of the client's lifetime. Pre-computed — no aggregation needed. |
+| `revenue_first_12_months` | FLOAT | Total gross revenue in the first 12 months of the client's lifetime. It represents the full return horizon the business uses to evaluate marketing and advertising investment. |

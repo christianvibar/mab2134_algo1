@@ -15,9 +15,7 @@ Allocate paid advertising budget toward acquisition channels and segments that p
 One customer (one row = one customer record).
 
 ### Target / Structure
-**Phase 1:** Unsupervised. Discover natural customer segments from behavioral data; validate whether manual customer segment labels correspond to meaningfully distinct groups.
-
-**Phase 2:** Supervised. Predict 12-month gross revenue per customer in absolute dollars. 12-month gross revenue is selected because this is where the business expects to make the return on investment from marketing and advertising efforts.
+Predict 12-month gross revenue per customer in absolute dollars at or near acquisition time. The modeling approach and algorithm selection will be informed by EDA findings.
 
 ### Prediction Horizon
 At or near customer acquisition. Before any retention, upsell, or account management action is taken.
@@ -28,7 +26,7 @@ Features: acquisition channel, service offering, TQL status, plan/tier, starting
 Row count to be confirmed upon data pull.
 
 ### Success Metric
-TBD
+TBD. Success metric will be informed by the modeling approach selected by EDA findings.
 
 ### Expected Business Value
 A defensible, data-driven basis for paid advertising budget allocation that reduces the risk of chronic misallocation toward low-value customer segments.

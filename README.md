@@ -1,15 +1,15 @@
 # MAB2134 - Analytics Algorithms 1 Project
 
-## Project Title: Predicting Customer Lifetime Value to Guide Paid Advertising Budget Allocation
+## Project Title: Predicting Customer Lifetime Value to Optimize Value-Based Bidding and Paid Advertising Budget Allocation
 
 ### Stakeholders
 Marketing team responsible for paid advertising strategy and budget planning.
 
 ### Business Problem
-The current Customer Lifetime Value (CLV) model relies on manually-maintained retention curves with a shifting denominator, making it unreliable for comparing customer value across channels and segments. This leads to the risk of persistently misallocating paid advertising budget toward lower-value segments, compounding into lower marketing ROI over time.
+The current Customer Lifetime Value (CLV) model relies on manually-maintained retention curves with a shifting denominator, making it unreliable for comparing customer value across channels and segments. This leads to the risk of persistently misallocating paid advertising budget toward lower-value segments, and undermines the effectiveness of value-based bidding (VBB) — an algorithmic bidding strategy that requires accurate customer value signals to optimize bids on ad platform auctions. Without a reliable CLV estimate, both manual budget allocation and automated bidding decisions are built on a flawed foundation, compounding into lower marketing ROI over time.
 
 ### Decision / Action
-Allocate paid advertising budget toward acquisition channels and segments that predict higher 12-month customer lifetime value. Outputs also inform algorithmic bidding on platform auctions.
+Allocate paid advertising budget toward acquisition channels and segments that predict higher 12-month customer lifetime value. Model outputs also serve as the customer value signal for value-based bidding (VBB) on paid ad platform auctions, enabling the platform's algorithm to automatically optimize bids toward higher-value customer acquisition.
 
 ### Unit of Analysis
 One customer (one row = one customer record).

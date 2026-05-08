@@ -6,7 +6,7 @@
 | `client_id` | STRING | Deduplicated client identifier that groups contacts with multiple lifecycle stages into a single logical client. |
 | `hubspot_client_id` | STRING | Client ID of contact in Hubspot CRM. Used as key to join with other tables. |
 
-## Marketing Fields
+## Marketing Attribution Fields
 
 | Column | Type | Description |
 |---|---|---|
@@ -76,6 +76,14 @@
 | `cb_sector` | STRING | Company sector from Clearbit — higher level than industry |
 | `cb_industry_group` | STRING | Industry group from Clearbit — between sector and industry in granularity |
 | `cb_sub_industry` | STRING | Sub-industry from Clearbit — more specific than industry |
+
+## Other Fields
+
+| Column | Type | Description |
+|---|---|---|
+| `fivetran_deleted` | BOOLEAN | Indicates whether a contact is deleted from database. Used for filtering only and not for modeling. |
+| `invalid_contact_flag` | BOOLEAN | Indicates whether a contact is invalid, such as coming from suspcious domains, spam, or countries not served by the company. Used for filtering only and not for modeling. |
+| `is_merged` | BOOLEAN | Indicates whether a contact is a duplicate and is merged with its original contact. Used for filtering only and not for modeling. |
 
 ---
 

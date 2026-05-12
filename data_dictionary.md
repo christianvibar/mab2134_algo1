@@ -62,7 +62,7 @@
 | `client_location_state` | STRING | Client's state/region derived from IP address |
 | `client_local_timezone` | STRING | Client's local timezone derived from IP address |
 | `cb_city` | STRING | Company city from Clearbit |
-| `email_type` | STRING | Email classification. Values: `personal`, `business` |
+| `email_type` | STRING | Classifies whether the contact is using a free email provider or a paid email (indicating company emails) |
 | `email_industry_type` | STRING | Industry type derived from email domain. Values: `seed_brokerage_firms`, `other_brokerage_firms`, `education_services`, `other_education_services`, `NULL` |
 | `cb_jobtitle_type` | STRING | Job title seniority classification. Values: `senior leadership` (C-suite, VP, Director), `non-senior leadership` |
 
